@@ -1,0 +1,5 @@
+const fortunes = [
+
+];
+
+const button 
