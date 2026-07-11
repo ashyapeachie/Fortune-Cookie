@@ -4,6 +4,7 @@ randomized fortune cookie generator
 ## ⭐ Game Plan
 Phase 1: design the page
 - button "open fortune" & "reveal fortune"
+
 Phase 2: create fortune
 - array
 Phase 3: generate random features
