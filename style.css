@@ -12,7 +12,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(
         180deg,
-        #ffea8a 0%,
+        #F4C542 0%,
         #FFF8EF 100%
     );
 }
@@ -25,11 +25,18 @@ body {
     padding: 2rem;
 }
 
+/* cookie */
 .cookie {
     font-size: 6rem;
     margin: 1rem 0;
+    transition: transform 0.2s ease;
 }
 
+.cookie:hover {
+    transform: rotate(-10deg) scale(1.05);
+}
+
+/* button */
 button {
     padding: 12px 24px;
     border: none;
@@ -44,10 +51,33 @@ button {
 
 button:hover {
     transform: scale(1.05);
+    box-shadow: #C0392B;
 }
 
+/* fortune text */
 #fortuneText {
     margin-top: 2rem;
     font-size: 1.2rem;
     max-width: 400px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+/* cherry blossom */
+.flower {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }

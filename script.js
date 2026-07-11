@@ -9,14 +9,26 @@ const fortunes = [
     "Your talents will be recognized and rewarded",
     "Savings Account: $10,000"
 ];
+// fortune array
 
 const button = document.getElementById("fortuneButton");
 const fortuneText = document.getElementById("fortuneText");
+const cookie = document.querySelector(".cookie");
 
 button.addEventListener("click", () => {
     const randomIndex = Math.floor(
         Math.random() * fortunes.length
     );
 
-    fortuneText.textContent = fortunes[randomIndex];
+    fortuneText.style.opacity = 0;
+
+    setTimeout(() => {
+        fortuneText.textContent = fortunes[randomIndex];
+        fortuneText.style.opacity = 1;
+    }, 300);
+    
+    button.textContent = "Open Another Cookie";
+    //button's txt changes after first click
+    cookie.textContent = "📜";
+    // change cookie emoji to scroll after first click
 });
