@@ -7,7 +7,14 @@ const fortunes = [
     "The desire has already manifested",
     "More money, more power, more abundance",
     "Your talents will be recognized and rewarded",
-    "Savings Account: $10,000"
+    "Savings Account: $10,000",
+    "Trust your gut feeling",
+    "Your hard work will be rewarded",
+    "Healthy mind, body, and soul!",
+    "You are becoming the best version of yourself!",
+    "Success is inevitable!",
+    "As you close a door, more will open for you with ease",
+    "The love you give will return to you tenfold!"
 ];
 // fortune array
 
