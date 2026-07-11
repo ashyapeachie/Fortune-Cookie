@@ -1,12 +1,46 @@
-body {
+:root {
+    --background: #FFF8EF;
+}
 
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(
+        180deg,
+        #ffea8a 0%,
+        #FFF8EF 100%
+    );
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.cookie {
+    font-size: 6rem;
+    margin: 1rem 0;
 }
 
 button {
-
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 button:hover {
-
+    transform: scale(1.05);
 }
 
+#fortuneText {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    max-width: 400px;
+}
