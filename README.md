@@ -18,6 +18,7 @@ Phase 4: add visual effects
 - text animation
 
 ## 🎀 Screenshots
+<img width="1354" height="636" alt="Screenshot_11-7-2026_194046_ashyapeachie github io" src="https://github.com/user-attachments/assets/5bacb4f9-e50b-4cbe-a193-a59a45666c25" />
 
 ## 📚 Tech Stack
 - HTML & CSS
