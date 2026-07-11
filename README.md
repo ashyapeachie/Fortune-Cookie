@@ -7,9 +7,11 @@ Phase 1: design the page
 
 Phase 2: create fortune
 - array
+ 
 Phase 3: generate random features
 - selecting a random fortune
 - display it on page
+
 Phase 4: add visual effects
 - cookie animation
 - fortune paper sliding out
